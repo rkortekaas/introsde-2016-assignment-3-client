@@ -1,0 +1,390 @@
+====================================
+1. Reading List of persons
+====================================
+There are 4 persons in the system
+
+- PersonID: 11
+- Name: Joke
+- Lastname: null
+- Email: remco_kortekaas@live.nl
+- Birthdate: 01/08/1993
+
+*** HealthProfile *** 
+- MeasureID: 101
+- MeasureType: height
+- Value: 60
+- ValueType :integer
+- Data of registration: 09/12/2016
+
+- MeasureID: 833
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 09/12/2016
+
+- MeasureID: 857
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 860
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 863
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 757
+- MeasureType: weight
+- Value: 176
+- ValueType :integer
+- Data of registration: 01/12/2016
+
+- MeasureID: 856
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 859
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 862
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+===========================================
+- PersonID: 12
+- Name: Thomas
+- Lastname: Kortekaas
+- Email: thomas_kortekaas@hotmail.com
+- Birthdate: 01/08/1993
+===========================================
+- PersonID: 13
+- Name: Michelle
+- Lastname: Kortekaas
+- Email: michelle_kortekaas@hotmail.com
+- Birthdate: 01/08/1993
+===========================================
+- PersonID: 3554
+- Name: Alex
+- Lastname: Kortekaas
+- Email: alex_kortekaas@hotmail.com
+- Birthdate: 01/08/1993
+
+*** HealthProfile *** 
+- MeasureID: 5
+- MeasureType: height
+- Value: 183
+- ValueType :double
+- Data of registration: 29/11/2016
+
+
+====================================
+2. Read Person with id=11
+====================================
+- PersonID: 11
+- Name: Joke
+- Lastname: null
+- Email: remco_kortekaas@live.nl
+- Birthdate: 01/08/1993
+
+*** HealthProfile *** 
+- MeasureID: 101
+- MeasureType: height
+- Value: 60
+- ValueType :integer
+- Data of registration: 09/12/2016
+
+- MeasureID: 833
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 09/12/2016
+
+- MeasureID: 857
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 860
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 863
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 757
+- MeasureType: weight
+- Value: 176
+- ValueType :integer
+- Data of registration: 01/12/2016
+
+- MeasureID: 856
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 859
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 862
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+
+====================================
+3. Update Person with ID=11
+====================================
+Before update:
+Joke null
+Appending BLA to lastname:
+
+After Update: 
+
+- PersonID: 11
+- Name: Joke
+- Lastname: nullBLA
+- Email: remco_kortekaas@live.nl
+- Birthdate: 01/08/1993
+
+*** HealthProfile *** 
+- MeasureID: 101
+- MeasureType: height
+- Value: 60
+- ValueType :integer
+- Data of registration: 09/12/2016
+
+- MeasureID: 833
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 09/12/2016
+
+- MeasureID: 857
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 860
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 863
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 757
+- MeasureType: weight
+- Value: 176
+- ValueType :integer
+- Data of registration: 01/12/2016
+
+- MeasureID: 856
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 859
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 862
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+
+====================================
+4. Create New Person with id=1
+====================================
+- PersonID: 1
+- Name: Benno
+- Lastname: De Grote
+- Email: benno@tvelden.nl
+- Birthdate: 10/10/1989
+
+*** HealthProfile *** 
+- MeasureID: 905
+- MeasureType: weight
+- Value: 110
+- ValueType :integer
+- Data of registration: 01/01/2016
+
+
+====================================
+5. Delete Person with ID=1:
+====================================
+Person with id 1 was deleted 
+====================================
+6. Read History of Person with ID=11
+====================================
+- MeasureID: 757
+- MeasureType: weight
+- Value: 176
+- ValueType :integer
+- Data of registration: 01/12/2016
+
+- MeasureID: 856
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 859
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 862
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+
+====================================
+7. Return list of measures
+====================================
+- MeasureID: 5
+- MeasureType: height
+- Value: 183
+- ValueType :double
+- Data of registration: 29/11/2016
+
+- MeasureID: 101
+- MeasureType: height
+- Value: 60
+- ValueType :integer
+- Data of registration: 09/12/2016
+
+- MeasureID: 757
+- MeasureType: weight
+- Value: 176
+- ValueType :integer
+- Data of registration: 01/12/2016
+
+- MeasureID: 761
+- MeasureType: weight
+- Value: 110
+- ValueType :integer
+- Data of registration: 01/01/2016
+
+- MeasureID: 762
+- MeasureType: weight
+- Value: 110
+- ValueType :integer
+- Data of registration: 01/01/2016
+
+- MeasureID: 833
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 09/12/2016
+
+- MeasureID: 856
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 857
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 859
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 860
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 862
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+- MeasureID: 863
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+
+====================================
+8. Return Measure MID=757 for Weight of Person with ID=11
+====================================
+- MeasureID: 757
+- MeasureType: weight
+- Value: 176
+- ValueType :integer
+- Data of registration: 01/12/2016
+
+====================================
+9. Save a new measure object for Person with ID=11
+====================================
+- MeasureID: 906
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+====================================
+9. Save a new measure object for Person with ID=11
+====================================
+- MeasureID: 907
+- MeasureType: weight
+- Value: 88
+- ValueType :integer
+- Data of registration: 11/12/2016
+
+====================================
+10. Update measure identified by 907 for person with id=11
+====================================
+- MeasureID: 907
+- MeasureType: height
+- Value: 1.90
+- ValueType :integer
+- Data of registration: 11/12/2016
+
