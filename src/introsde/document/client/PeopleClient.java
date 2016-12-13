@@ -32,7 +32,6 @@ public class PeopleClient{
 	private static String doc;
 	private static PeopleService service;
 	private static People people;
-	private static int request;
 	private static Measure measure;
 	
     private static void initialize() throws FileNotFoundException{
@@ -40,7 +39,6 @@ public class PeopleClient{
         print = new PrintStream(file);
         service = new PeopleService();
         people = service.getPeopleImplPort();
-        request = 1;
     }
     
     public static void main(String[] args) throws Exception {
