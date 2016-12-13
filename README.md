@@ -11,7 +11,7 @@ In the project root there is _output.log_, this is the log file with client requ
 https://github.com/rkortekaas/introsde-2016-assignment-3
 
 #### WSDL of Service for generating client stub code can be found here:
-https://guarded-gorge-29938.herokuapp.com/ws/people?wsdl
+https://peaceful-refuge-65233.herokuapp.com/ws/people?wsdl
 
 ----------
 How to execute the code 
